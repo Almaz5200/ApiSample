@@ -1,0 +1,17 @@
+use_modular_headers!
+
+target 'ApiSample' do
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'RxDataSources', '~> 3.0'
+  pod 'Moya/RxSwift'
+  pod 'Moya-ObjectMapper/RxSwift'  
+  #pod 'ObjectMapper'
+  #pod 'Moya-ObjectMapper'
+  #pod 'RxMoya', '~> 8.0.0'
+  pod 'Alamofire'
+  pod 'SVPullToRefresh'
+  pod 'SwiftyJSON'
+  #pod 'Realm'
+  pod 'RealmSwift'
+end

@@ -1,0 +1,23 @@
+### Headers settings
+company: atrubacheev
+
+### Xcode project settings
+project_name: ApiSample
+xcodeproj_path: ApiSample.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: ApiSample
+
+# The file path for new modules
+project_file_path: ApiSample/Modules
+
+# The Xcode group path to new modules
+project_group_path: ApiSample/Modules
+
+### Dependencies settings section
+podfile_path: podfile
+
+### Templates
+templates:
+- {name: viper, git: 'https://gitlab.com/svyat_kimata/viper'}
